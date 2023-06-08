@@ -1,3 +1,4 @@
+import Post from "./Post";
 import Stories from "./Stories"
 
 
@@ -46,7 +47,7 @@ const Feed = () => {
       ];
         
   return (
-    <div className="h-full w-full bg flex flex-col justify-start items-center bg-white text-black p-6"><div className="bg-red-300 " >
+    <div className="h-full w-full bg flex flex-col justify-start items-center bg-white text-black p-6"><div  >
         <ul className="flex gap-4">
 
         <Stories users={usuarios} />
@@ -54,8 +55,11 @@ const Feed = () => {
         
         </div>
 
-        <div className=" flex flex-col justify-start items-center w-3/4 bg-green-400 h-3/4" >
-        posts
+        <div className=" flex flex-col justify-start items-center w-3/4  h-3/4" >
+        <Post />
+        
+   
+
         </div>
         
         </div>
