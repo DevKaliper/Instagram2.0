@@ -47,7 +47,7 @@ const Sidebar = () => {
 ]
     
   return (
-    <div className="flex h-full w-[250px] flex-col items-center justify-start border-r-2  border-[#262626]  bg-white p-5 text-black">
+    <div className="flex h-full w-[250px] sticky flex-col items-center justify-start border-r-2  border-[#262626]  bg-white p-5 text-black">
       <div >
         <a href="https://ibb.co/SDThhfT">
           <img

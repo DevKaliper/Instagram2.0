@@ -26,7 +26,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function Post() {
+export default function Post({img, nick}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -46,13 +46,13 @@ export default function Post() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
+        title={nick}
         subheader="September 14, 2016"
       />
       <CardMedia
         component="img"
         height="194"
-        image="https://concepto.de/wp-content/uploads/2014/03/modelo-e1551453273683.jpg"
+        image={img}
         alt="Paella dish"
       />
       <CardContent>

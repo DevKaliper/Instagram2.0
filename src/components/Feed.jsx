@@ -55,8 +55,9 @@ const Feed = () => {
         
         </div>
 
-        <div className=" flex flex-col justify-start items-center w-3/4  h-3/4" >
-        <Post />
+        <div className=" flex flex-col justify-start items-center w-3/4  h-auto" >
+        <Post img="https://upload.wikimedia.org/wikipedia/commons/6/65/Kylie_Jenner_in_2021.jpg" nick="kylie" />
+        <Post img="https://upload.wikimedia.org/wikipedia/commons/7/7e/Kendall_Jenner_at_Met_Gala_2021_5.jpg" nick="kendal" />
         
    
 
